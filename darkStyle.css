@@ -1,0 +1,59 @@
+﻿body {
+    background-color:transparent;
+    background-size:cover;
+    color: white;
+}
+
+header {
+    background-image: url("darksand.jpg");
+    background-size: cover;
+    border-style: initial;
+    color:rgb(255, 255, 255);
+    
+}
+ .value-display {
+   
+      color: #090033;
+    }
+.card {
+      background: rgba(255, 255, 255, 0.234);
+   
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    
+      border: 1px solid #000000;
+    }
+/*Buttons*/
+
+.btn:hover {
+    background-color:darkcyan;
+}
+
+.btn {
+    background-color: black;
+    color:white;
+    box-shadow: 3px 3px 10px hsl(0, 0%, 100%), -3px -3px 10px #000000;
+}
+
+  button {
+      background: #000000;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+    
+    button:hover {
+      background: #1d1751cc;
+    }
+
+
+.navbar-nav li {
+    margin: 2px;
+    border-radius: 5px;
+    background-color:black;
+    border: 2px;
+    border: solid;
+    border-color: white;
+}

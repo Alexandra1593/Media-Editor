@@ -1,0 +1,161 @@
+  *{
+      box-sizing: border-box;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6fb;
+      color: #222;
+    }
+
+    header {
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    h3{
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.234);
+      border-radius: 14px;
+      padding: 20px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      margin-bottom: 24px;
+      border: 1px solid #000000;
+    }
+    h1{
+      margin-top: 0;
+      font-family:'Sacramento', cursive;
+    }
+    h2 {
+      margin-top: 0;
+     
+     font-family:'Playfair Display', serif;
+
+    }
+
+    .controls-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 15px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 8px;
+      font-family:cursive;
+    }
+
+    input[type="file"],
+    input[type="number"],
+    input[type="range"] {
+      width: 70%;
+      padding: 8px;
+      border-radius: 10px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+  
+
+
+    .preview-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .preview-box {
+      background: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 15px;
+      text-align: center;
+      min-height: 320px;
+      color:#222;
+    }
+
+    .preview-box img,
+    .preview-box canvas,
+    .preview-box video {
+      max-width: 100%;
+      max-height: 300px;
+      border-radius: 10px;
+    }
+
+    .info {
+      margin-top: 12px;
+      font-size: 14px;
+      color: #444;
+    }
+
+    .small-note {
+      color: #666;
+      font-size: 14px;
+      margin-top: 8px;
+    }
+
+    .value-display {
+      margin-top: 5px;
+      font-size: 14px;
+      color: #000000;
+    }
+input[type="file"],
+input[type="number"],
+input[type="range"],
+select {
+  width: 100%;
+  padding: 8px;
+}
+    @media (max-width: 900px) {
+      .preview-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+
+    /*Background*/
+
+ 
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+
+.page-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 40px;
+}

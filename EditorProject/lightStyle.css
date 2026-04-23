@@ -1,0 +1,55 @@
+﻿body {
+    background-color:transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#000000;
+}
+section{
+    background-color:transparent;
+    border-style: initial;
+    color:white;
+}
+header {
+    background-image: url("sand.jpg");
+    background-size: cover;
+    border-style: initial;
+    color:rgb(10, 10, 10);
+    
+}
+
+    .card {
+      background: rgba(0, 0, 0, 0.767);
+     
+      box-shadow: 0 6px 20px rgba(248, 248, 248, 0.589);
+      
+      border: 1px solid #fdfcfc;
+    }
+ .value-display {
+   
+      color: #ffffff;
+    }
+
+/*Buttons*/
+
+.btn:hover {
+    background-color: salmon;
+}
+
+.btn {
+    background-color: aliceblue;
+    box-shadow: 3px 3px 10px hsl(0, 0%, 100%), -3px -3px 10px #000000;
+    color:black;
+}
+  button {
+      background: #fcbbbb;
+      color: rgb(0, 0, 0);
+      border: none;
+      padding: 10px 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+    
+    button:hover {
+      background: #f4d99e;
+    }
